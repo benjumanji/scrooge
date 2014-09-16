@@ -55,9 +55,6 @@ object Scrooge extends Build {
         outputDir.getAbsolutePath,
         base.getAbsolutePath)
 
-      println("HELLOOOOO!!!")
-      println(cmd)
-
       out.log.info(cmd)
       cmd ! out.log
 
